@@ -1,0 +1,78 @@
+
+body{
+    background-color:blanchedalmond;
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 50px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    min-height: 90vh;
+   
+}
+.main{
+    flex: 1;
+}
+h1{
+    font-size: 5rem;
+}
+footer{
+    font-family:'Times New Roman', Times, serif;
+    text-align: right;
+    color: blue;
+    
+
+}
+
+.tile-image{
+    height: 250px;
+    width: 250px;
+    margin-right: 50px;
+    float:left;
+}
+.card{
+    width: 45%; 
+    margin-bottom: 100px;
+}
+
+.first{
+    float: left;
+    margin-right: 90px;
+}
+.second{
+    float: right;
+}
+.third{
+    float: left;
+}
+.fourth{
+    float: right;
+}
+.life{
+    color: plum;
+}
+
+
+
+@media (max-width: 680px){
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+        display: block;
+        text-align: justify;
+        margin-bottom: 30px;
+        
+    }
+    .tile-image{
+        width: 100%;
+        margin-bottom: 20px;
+        display: inline;
+        object-fit: contain;     
+
+    }
+}
+
